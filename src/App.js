@@ -29,7 +29,7 @@ class App extends Component {
             date = date.toISOString().substr(11,8);
             time -= 1;
             this.setState({'time': date});
-            if(time <= 0){
+            if(time <= -1){
                 clearInterval(timeInt);
             }
         }.bind(this),1000)
