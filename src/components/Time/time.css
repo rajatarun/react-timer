@@ -1,0 +1,24 @@
+/*input[type="text"]{*/
+    /*font-size: 2em !important;*/
+
+/*}*/
+/*input[type="button"]{*/
+    /*font-size: 4em;*/
+    /*width: 3em;*/
+    /*height:5em;*/
+/*}*/
+.createBorder{
+    border: solid black 0.1em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+input[type = "text"], label {
+    display:block;
+}
+div.inputBox{
+    float: left ;
+    margin-right: 6em;
+}
+div.buttonCollection{
+    margin-left: -6em;
+}
